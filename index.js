@@ -23,7 +23,7 @@ const fontFaces = plugin(
       {
         '@font-face': {
           fontFamily: 'Raleway',
-          src: `url("${theme('fontPaths.PlayfairDisplay')}") format("truetype")`,
+          src: `url("${theme('fontPaths.Raleway')}") format("truetype")`,
           fontWeight: '100 900',
           fontStretch: '75% 125%',
         },
@@ -31,7 +31,7 @@ const fontFaces = plugin(
       {
         '@font-face': {
           fontFamily: '"Work Sans"',
-          src: `url("${theme('fontPaths.PlayfairDisplay')}") format("truetype")`,
+          src: `url("${theme('fontPaths.WorkSans')}") format("truetype")`,
           fontWeight: '100 900',
           fontStretch: '75% 125%',
         },
