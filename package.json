@@ -1,0 +1,43 @@
+{
+  "name": "@exotelis-labs/tailwindcss-font-faces",
+  "version": "1.0.0",
+  "description": "Tailwindcss plugin for fonts used by exotelis-labs",
+  "license": "MIT",
+  "homepage": "https://github.com/exotelis-labs/tailwindcss-font-faces#readme",
+  "author": {
+    "name": "Sebastian Krah",
+    "email": "exotelis@mailbox.org"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "files": ["fonts"],
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./fonts/*": "./fonts/*"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/exotelis-labs/tailwindcss-font-faces.git"
+  },
+  "keywords": [
+    "exotelis-labs",
+    "tailwindcss plugin"
+  ],
+  "bugs": {
+    "url": "https://github.com/exotelis-labs/tailwindcss-font-faces/issues"
+  },
+  "peerDependencies": {
+    "tailwindcss": ">=3.0.0"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
