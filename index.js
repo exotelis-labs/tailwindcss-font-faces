@@ -8,7 +8,7 @@ const fontFaces = plugin(
         '@font-face': {
           fontFamily: 'OverpassMono',
           src: theme('fontSrc.OverpassMono'),
-          fontWeight: '1 999',
+          fontWeight: '100 900',
           fontStretch: '25% 151%',
         },
       },
@@ -16,7 +16,7 @@ const fontFaces = plugin(
         '@font-face': {
           fontFamily: '"Playfair Display"',
           src: theme('fontSrc.PlayfairDisplay'),
-          fontWeight: '1 999',
+          fontWeight: '100 900',
           fontStretch: '25% 151%',
         },
       },
@@ -24,7 +24,7 @@ const fontFaces = plugin(
         '@font-face': {
           fontFamily: 'Raleway',
           src: theme('fontSrc.Raleway'),
-          fontWeight: '1 999',
+          fontWeight: '100 900',
           fontStretch: '25% 151%',
         },
       },
@@ -32,7 +32,7 @@ const fontFaces = plugin(
         '@font-face': {
           fontFamily: '"Work Sans"',
           src: theme('fontSrc.WorkSans'),
-          fontWeight: '1 999',
+          fontWeight: '100 900',
           fontStretch: '25% 151%',
         },
       },
@@ -41,10 +41,10 @@ const fontFaces = plugin(
   {
     theme: {
       fontSrc: {
-        OverpassMono: 'url("@exotelis-labs/tailwindcss-font-faces/fonts/OverpassMono-VariableFont.woff2") format("woff2 supports variations"), url("@exotelis-labs/tailwindcss-font-faces/fonts/OverpassMono-VariableFont.woff2") format("woff2-variations")',
-        PlayfairDisplay: 'url("@exotelis-labs/tailwindcss-font-faces/fonts/PlayfairDisplay-VariableFont.woff2") format("woff2 supports variations"), url("@exotelis-labs/tailwindcss-font-faces/fonts/PlayfairDisplay-VariableFont.woff2") format("woff2-variations")',
-        Raleway: 'url("@exotelis-labs/tailwindcss-font-faces/fonts/Raleway-VariableFont.woff2") format("woff2 supports variations"), url("@exotelis-labs/tailwindcss-font-faces/fonts/Raleway-VariableFont.woff2") format("woff2-variations")',
-        WorkSans: 'url("@exotelis-labs/tailwindcss-font-faces/fonts/WorkSans-VariableFont.woff2") format("woff2 supports variations"), url("@exotelis-labs/tailwindcss-font-faces/fonts/WorkSans-VariableFont.woff2")',
+        OverpassMono: 'url("@exotelis-labs/tailwindcss-font-faces/fonts/OverpassMono-VariableFont.woff2") format("woff2")',
+        PlayfairDisplay: 'url("@exotelis-labs/tailwindcss-font-faces/fonts/PlayfairDisplay-VariableFont.woff2") format("woff2")',
+        Raleway: 'url("@exotelis-labs/tailwindcss-font-faces/fonts/Raleway-VariableFont.woff2") format("woff2")',
+        WorkSans: 'url("@exotelis-labs/tailwindcss-font-faces/fonts/WorkSans-VariableFont.woff2") format("woff2")',
       },
     },
   }

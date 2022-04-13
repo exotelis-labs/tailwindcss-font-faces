@@ -1,6 +1,6 @@
 {
   "name": "@exotelis-labs/tailwindcss-font-faces",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Tailwindcss plugin for fonts used by exotelis-labs",
   "license": "MIT",
   "homepage": "https://github.com/exotelis-labs/tailwindcss-font-faces#readme",
