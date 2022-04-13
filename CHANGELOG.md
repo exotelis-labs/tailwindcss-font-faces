@@ -4,6 +4,12 @@ All notable changes will be documented in this file.
 
 Updates should follow the [Keep a CHANGELOG](http://keepachangelog.com/) principles.
 
+## [2.0.1] - 2022-04-13
+
+### Changed
+- Updated README.md
+- Updated font src definition
+
 ## [2.0.0] - 2022-04-13
 
 ### Added

@@ -18,8 +18,8 @@ module.exports = {
   theme: {
     // ...
     extend: {
-      fontPaths: {
-        Raleway: './assets/fonts/Raleway-VariableFont.ttf',
+      fontSrc: {
+        Raleway: 'url("./assets/fonts/Raleway-VariableFont.woff2") format("woff2 supports variations")',
       },
     },
   },
